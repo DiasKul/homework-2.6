@@ -18,7 +18,18 @@
 
 // // 2)	Напишите функцию removeItem которая  принимает коллбэк и удаляет определенный элемент из массива. 
 // const arr = [1, 4, 7, 5, 2, 3, 6, 7, 12, 2, 1, 7, 2]
-// Еще попытаюсь доделать это задание
+// console.log('Массив до удаления: ' + arr);
+// const removeItem = (callback) => {
+// 	let thisDelete = prompt('Введите число, которое хотите удалить?')
+// 	callback(thisDelete, arr)
+// }
+
+// const elemDeleted = (index, arr) => {
+// 	let elem = index - 1
+// 	return arr.splice(elem, 1)
+// }
+// removeItem(elemDeleted)
+// console.log('Массив после удаления: ' + arr)
 
 
 // // 3)	Используя метод map() напишите код, который получает из массива строк новый массив, содержащий их длины
